@@ -1,0 +1,28 @@
+*jsontoml.txt* JSONとTOMLを相互変換するやつ
+
+Author: yukimemi
+License: NYSL
+
+☆はじめに
+
+*jsontoml* はJSONとTOMLを相互変換できるようにすることで
+JSONを編集しやすくするためのプラグインです。
+|denops.vim|を経由しDenoのライブラリを呼び出すため
+Deno及びdenops.vimの導入が必要です。
+
+https://deno.land
+https://github.com/vim-denops/denops.vim
+
+☆使い方
+
+インターフェースは用意していないので各自で定義をお願いします。
+私は `ftplugin/toml.vim` に以下のような記述をしています。
+
+>
+  command! -buffer -range=% JT call denops#request('jsontoml', 'jsonTOML', [<line1>, <line2>])
+  command! -buffer -range=% TJ call denops#request('jsontoml', 'tomlJSON', [<line1>, <line2>])
+<
+これによりjsonファイルを開いた際に範囲を指定可能な
+JTコマンド及びTJコマンドを使用可能になります。
+
+vim: ft=help

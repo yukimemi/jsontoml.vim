@@ -1,6 +1,9 @@
-# jsonyaml.vim
+# jsontoml.vim
 
-JSON/YAML conversion plugin for Vim/Neovim
+JSON/TOML conversion plugin for Vim/Neovim
+
+This plugin is the toml version of the plugin below. Thank you !
+[kuuote/jsonyaml.vim: JSON/YAML conversion plugin with denops.vim](https://github.com/kuuote/jsonyaml.vim)
 
 ![movie](https://user-images.githubusercontent.com/36663503/217253706-2d92b051-aca5-41c9-8719-20a44d9d628b.gif)
 
@@ -12,3 +15,4 @@ JSON/YAML conversion plugin for Vim/Neovim
 # License
 
 [NYSL](http://www.kmonos.net/nysl/)
+
