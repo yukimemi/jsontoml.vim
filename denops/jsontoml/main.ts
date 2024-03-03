@@ -1,8 +1,8 @@
-import * as TOML from "https://deno.land/std@0.201.0/toml/mod.ts";
-import * as fn from "https://deno.land/x/denops_std@v5.0.1/function/mod.ts";
-import * as opt from "https://deno.land/x/denops_std@v5.0.1/option/mod.ts";
-import type { Denops } from "https://deno.land/x/denops_std@v5.0.1/mod.ts";
-import { assert, is } from "https://deno.land/x/unknownutil@v3.6.0/mod.ts";
+import * as TOML from "https://deno.land/std@0.218.2/toml/mod.ts";
+import * as fn from "https://deno.land/x/denops_std@v6.2.0/function/mod.ts";
+import * as opt from "https://deno.land/x/denops_std@v6.2.0/option/mod.ts";
+import type { Denops } from "https://deno.land/x/denops_std@v6.2.0/mod.ts";
+import { assert, is } from "https://deno.land/x/unknownutil@v3.16.3/mod.ts";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
 const stringifyReplacer = (_: unknown, v: unknown) =>
