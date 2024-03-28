@@ -1,4 +1,4 @@
-import * as TOML from "https://deno.land/std@0.220.1/toml/mod.ts";
+import * as TOML from "https://deno.land/std@0.221.0/toml/mod.ts";
 import * as fn from "https://deno.land/x/denops_std@v6.4.0/function/mod.ts";
 import * as opt from "https://deno.land/x/denops_std@v6.4.0/option/mod.ts";
 import type { Denops } from "https://deno.land/x/denops_std@v6.4.0/mod.ts";
