@@ -2,7 +2,7 @@ import * as TOML from "https://deno.land/std@0.222.1/toml/mod.ts";
 import * as fn from "https://deno.land/x/denops_std@v6.4.0/function/mod.ts";
 import * as opt from "https://deno.land/x/denops_std@v6.4.0/option/mod.ts";
 import type { Denops } from "https://deno.land/x/denops_std@v6.4.0/mod.ts";
-import { assert, is } from "https://deno.land/x/unknownutil@v3.17.2/mod.ts";
+import { assert, is } from "https://deno.land/x/unknownutil@v3.17.3/mod.ts";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
 const stringifyReplacer = (_: unknown, v: unknown) =>
