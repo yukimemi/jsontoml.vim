@@ -1,7 +1,7 @@
 import * as TOML from "https://deno.land/std@0.224.0/toml/mod.ts";
-import * as fn from "https://deno.land/x/denops_std@v6.4.3/function/mod.ts";
-import * as opt from "https://deno.land/x/denops_std@v6.4.3/option/mod.ts";
-import type { Denops } from "https://deno.land/x/denops_std@v6.4.3/mod.ts";
+import * as fn from "https://deno.land/x/denops_std@v6.5.0/function/mod.ts";
+import * as opt from "https://deno.land/x/denops_std@v6.5.0/option/mod.ts";
+import type { Denops } from "https://deno.land/x/denops_std@v6.5.0/mod.ts";
 import { assert, is } from "https://deno.land/x/unknownutil@v3.18.1/mod.ts";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
