@@ -1,8 +1,14 @@
-import * as TOML from "https://deno.land/std@0.224.0/toml/mod.ts";
-import * as fn from "https://deno.land/x/denops_std@v6.5.1/function/mod.ts";
-import * as opt from "https://deno.land/x/denops_std@v6.5.1/option/mod.ts";
-import type { Denops } from "https://deno.land/x/denops_std@v6.5.1/mod.ts";
-import { assert, is } from "https://deno.land/x/unknownutil@v3.18.1/mod.ts";
+// =============================================================================
+// File        : main.ts
+// Author      : yukimemi
+// Last Change : 2024/07/28 21:08:07.
+// =============================================================================
+
+import * as TOML from "jsr:@std/toml@0.224.0";
+import * as fn from "jsr:@denops/std@7.0.0/function";
+import * as opt from "jsr:@denops/std@7.0.0/option";
+import type { Denops } from "jsr:@denops/std@7.0.0";
+import { assert, is } from "jsr:@core/unknownutil@3.18.1";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
 const stringifyReplacer = (_: unknown, v: unknown) =>
