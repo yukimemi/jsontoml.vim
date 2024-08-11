@@ -5,10 +5,10 @@
 // =============================================================================
 
 import * as TOML from "jsr:@std/toml@1.0.0";
-import * as fn from "jsr:@denops/std@7.0.0/function";
-import * as opt from "jsr:@denops/std@7.0.0/option";
-import type { Denops } from "jsr:@denops/std@7.0.0";
-import { assert, is } from "jsr:@core/unknownutil@3.18.1";
+import * as fn from "jsr:@denops/std@7.0.3/function";
+import * as opt from "jsr:@denops/std@7.0.3/option";
+import type { Denops } from "jsr:@denops/std@7.0.3";
+import { assert, is } from "jsr:@core/unknownutil@4.1.0";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
 const stringifyReplacer = (_: unknown, v: unknown) =>
