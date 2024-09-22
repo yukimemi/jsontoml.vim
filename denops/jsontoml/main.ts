@@ -4,11 +4,11 @@
 // Last Change : 2024/07/28 21:08:07.
 // =============================================================================
 
-import * as TOML from "jsr:@std/toml@1.0.0";
-import * as fn from "jsr:@denops/std@7.0.3/function";
-import * as opt from "jsr:@denops/std@7.0.3/option";
-import type { Denops } from "jsr:@denops/std@7.0.3";
-import { assert, is } from "jsr:@core/unknownutil@4.1.0";
+import * as TOML from "jsr:@std/toml@1.0.1";
+import * as fn from "jsr:@denops/std@7.1.1/function";
+import * as opt from "jsr:@denops/std@7.1.1/option";
+import type { Denops } from "jsr:@denops/std@7.1.1";
+import { assert, is } from "jsr:@core/unknownutil@4.3.0";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
 const stringifyReplacer = (_: unknown, v: unknown) =>
