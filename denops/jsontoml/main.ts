@@ -4,7 +4,7 @@
 // Last Change : 2024/07/28 21:08:07.
 // =============================================================================
 
-import * as TOML from "jsr:@std/toml@1.0.1";
+import * as TOML from "jsr:@std/toml@1.0.2";
 import * as fn from "jsr:@denops/std@7.3.2/function";
 import * as opt from "jsr:@denops/std@7.3.2/option";
 import type { Denops } from "jsr:@denops/std@7.3.2";
