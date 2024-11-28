@@ -5,9 +5,9 @@
 // =============================================================================
 
 import * as TOML from "jsr:@std/toml@1.0.2";
-import * as fn from "jsr:@denops/std@7.3.2/function";
-import * as opt from "jsr:@denops/std@7.3.2/option";
-import type { Denops } from "jsr:@denops/std@7.3.2";
+import * as fn from "jsr:@denops/std@7.4.0/function";
+import * as opt from "jsr:@denops/std@7.4.0/option";
+import type { Denops } from "jsr:@denops/std@7.4.0";
 import { assert, is } from "jsr:@core/unknownutil@4.3.0";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
