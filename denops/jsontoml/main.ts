@@ -1,14 +1,14 @@
 // =============================================================================
 // File        : main.ts
 // Author      : yukimemi
-// Last Change : 2024/07/28 21:08:07.
+// Last Change : 2025/11/02 19:42:46.
 // =============================================================================
 
-import * as TOML from "jsr:@std/toml@1.0.2";
-import * as fn from "jsr:@denops/std@7.4.0/function";
-import * as opt from "jsr:@denops/std@7.4.0/option";
-import type { Denops } from "jsr:@denops/std@7.4.0";
-import { assert, is } from "jsr:@core/unknownutil@4.3.0";
+import * as TOML from "@std/toml";
+import * as fn from "@denops/std/function";
+import * as opt from "@denops/std/option";
+import type { Denops } from "@denops/std";
+import { assert, is } from "@core/unknownutil";
 
 // from https://qiita.com/usoda/items/dbedc06fd4bf38a59c48
 const stringifyReplacer = (_: unknown, v: unknown) =>
