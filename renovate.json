@@ -1,4 +1,9 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["github>yukimemi/pj-base"]
+  "description": [
+    "This repository is a fork, and Renovate skips forks unless the fork itself opts in.",
+    "forkProcessing is set here rather than in github>yukimemi/pj-base on purpose: Renovate decides whether to process a fork from the repository's own config, so relying on a remote preset to carry the opt-in is not dependable. Every non-fork consumer inherits pj-base unchanged."
+  ],
+  "extends": ["github>yukimemi/pj-base"],
+  "forkProcessing": "enabled"
 }
