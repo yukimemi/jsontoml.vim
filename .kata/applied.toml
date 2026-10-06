@@ -8,7 +8,7 @@ version = "0.18.0"
 
 [[templates]]
 source = "github.com/yukimemi/pj-denops"
-rev = "f6aac04bcdd1fe107143b2cb9e670de033996792"
+rev = "71f0d055ae009d2007561f2df75ff4d98533e325"
 version = "0.1.0"
 
 [files.".agents/skills/renri/SKILL.md"]
