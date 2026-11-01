@@ -1,14 +1,14 @@
 preset = "github.com/yukimemi/pj-presets:denops"
-applied_at = "2026-09-25T03:29:35.904735873Z"
+applied_at = "2026-11-01T03:21:57.62740294Z"
 
 [[templates]]
 source = "github.com/yukimemi/pj-base"
-rev = "979842887b53c20a00241b0b136b82df9e6962c6"
+rev = "319784779fae0b010db4973f99fe2a967e0122c7"
 version = "0.18.0"
 
 [[templates]]
 source = "github.com/yukimemi/pj-denops"
-rev = "275195b5996a29d80dc0b0746831948fbac18c5b"
+rev = "1d3ac3ed5302d9e4270e69585c779c9f394b1514"
 version = "0.1.0"
 
 [files.".agents/skills/renri/SKILL.md"]
@@ -27,13 +27,13 @@ content_hash = "486c974de88903113ed99b4e643432b7050e88f1031276f5263e8da7b43fe11e
 content_hash = "6d380d1ecc2f882c2011429d548a6f3c774b74f0c757d884453e4667172acc2a"
 
 [files.".github/workflows/apm-bump.yml"]
-content_hash = "4a73fc04db9e8c074a6ab19b084435f6c4f9b869fccb39c11245d734933a0805"
+content_hash = "2bd39e668895cdcbfebf44acea6fed6cb332ec43e1d14a19bdb81ce9211dc5b3"
 
 [files.".github/workflows/automerge.yml"]
 once_applied = true
 
 [files.".github/workflows/ci.yml"]
-content_hash = "1b5b6e531f6797b64744883b4469286fe5663417c3fd79a322b4306c00a28e6c"
+content_hash = "4df38871e87a2a92b187027eb6d4590704e6545e598b19db08dad118f524ec2a"
 
 [files.".github/workflows/claude-review.yml"]
 content_hash = "84a8abed2a63c56647fa5d7a6f32147ddc2f39e09aed63f759cd8337d710580e"
@@ -45,7 +45,7 @@ content_hash = "be0b9147871dff320e42f596d8d35e1d5a86038bd8c4951e24acfd3281a47ec0
 content_hash = "a4e49b9b5141212cff2828bea086762db0bd7a6fd2c4a4a132fe12f5c18dcaf2"
 
 [files.".github/workflows/kata-apply.yml"]
-content_hash = "9c2923b9d8b5a8fd49662295940eab642388ade92a56239c685322dc392ce1e1"
+content_hash = "fedde75b8f06ca8ffb41eb9f02e75b381c1b4c0deb8948ceda3b2b87e4861701"
 
 [files.".gitignore"]
 content_hash = "4bebd1c3417c33f9d1c51f011694f6d82b098bbb1a5a102ba56e97ab01a866ef"
